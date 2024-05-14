@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cart Buttons + Title</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.11.1/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body data-theme="light">
+    <header class="bg-white overflow-hidden shadow-lg p-5 flex w-full">
+      <a href="index.html">
+        <img
+          class="h-[40px]"
+          src="https://cdn.mscdirect.com/global/v2/img/header/msc-logo.svg"
+          alt=""
+        />
+      </a>
+    </header>
+    <nav class="bg-white border overflow-auto">
+      <ul class="flex font-bold pl-2">
+        <li class="mr-3 p-3">Products</li>
+        <li class="mr-3 p-3">Solutions</li>
+        <li class="mr-3 p-3">Resources</li>
+        <li class="mr-3 p-3">Sepcial Offers</li>
+        <li class="mr-3 p-3">Catalogs</li>
+        <li class="mr-3 p-3">Better MRO</li>
+      </ul>
+    </nav>
+    <main class="bg-neutral-content h-screen">
+      <div class="flex bg-[#18436A] justify-center items-center gap-4">
+        <img src="./assets/sparkles.svg" />
+        <p class="text-white py-4">
+          Unlock a smoother shopping journey – Flip the switch to our new beta
+          checkout!
+        </p>
+        <input type="checkbox" class="toggle" checked />
+      </div>
+      <section class="container grid grid-cols-12 gap-2 mx-auto p-3">
+        <div class="lg:col-span-9 md:col-span-9 col-span-12">
+          <nav class="flex justify-between mb-4">
+            <div class="flex gap-3 align-center items-end">
+              <h2 class="text-2xl font-extrabold">Your Cart</h2>
+              <span class="text-base font-bold">4 Items</span>
+            </div>
+            <div>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/save.svg" />
+                Save Cart
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/print.svg" />
+                Print
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/add.svg" />
+                Add to List
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/download.svg" />
+                Donwload Cart
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/receipt.svg" />
+                Request a Quote
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/share.svg" />
+                Share
+              </button>
+              <button class="btn rounded-none m-0 border-none">
+                <img src="./assets/trash.svg" />
+                Clear cart
+              </button>
+            </div>
+          </nav>
+          <div class="flex gap-4 bg-white py-2 px-5">
+            <input type="checkbox" class="toggle" checked />
+            <span class="text-base font-bold">Order-Level Cost Allocation</span>
+          </div>
+          <div class="card card-side bg-base-100 mt-4 rounded">
+            <figure>
+              <img src="./assets/cachucha.png" class="w-20 h-20" alt="Movie" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Brand Name</h2>
+              <p>
+                This is a long text that can wrap into multiple lines, this can
+                take the entire product name
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 mt-4 rounded">
+            <figure>
+              <img src="./assets/cachucha.png" class="w-20 h-20" alt="Movie" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Brand Name</h2>
+              <p>
+                This is a long text that can wrap into multiple lines, this can
+                take the entire product name
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 mt-4 rounded">
+            <figure>
+              <img src="./assets/cachucha.png" class="w-20 h-20" alt="Movie" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">Brand Name</h2>
+              <p>
+                This is a long text that can wrap into multiple lines, this can
+                take the entire product name
+              </p>
+              <div class="card-actions justify-end"></div>
+            </div>
+          </div>
+        </div>
+        <aside class="col-span-12 md:col-span-3 flex-row">
+          <article class="flex bg-white rounded mb-4">
+            <input
+              type="text"
+              placeholder="Street Address, State, Tax Exemp..."
+              class="input input-ghost w-full max-w-xs"
+            />
+            <button class="btn btn-active btn-link">Change</button>
+          </article>
+          <article class="flex-row bg-white p-6">
+            <div class="flex-row">
+              <div class="flex justify-between mb-4">
+                <p class="inline text-sm font-normal">Item Total</p>
+                <span class="text-sm font-normal">$111.21</span>
+              </div>
+              <div class="flex justify-between mb-4">
+                <p class="inline text-sm font-normal">Savings</p>
+                <span class="text-sm font-normal">-$27.50</span>
+              </div>
+              <div class="flex justify-between mb-4">
+                <div class="items-center">
+                  <p class="inline pr-1 text-sm font-normal">Ship to 78753</p>
+                  <img
+                    src="./assets/info-question.svg"
+                    class="inline w-4 cursor-pointer"
+                  />
+                  <a
+                    class="inline pl-1 text-sm font-bold text-[#0D3AA9] cursor-pointer"
+                    >Edit</a
+                  >
+                </div>
+                <span class="text-sm font-normal">$17.99</span>
+              </div>
+              <div class="flex justify-between mb-5">
+                <p class="inline text-sm font-bold">Sub Total</p>
+                <span class="text-lg font-extrabold">$134.20</span>
+              </div>
+            </div>
+            <div class="divider"></div>
+            <select class="select select-bordered w-full max-w-xs mb-4">
+              <option disabled selected>Select a Buyer</option>
+              <option>Han Solo</option>
+              <option>Greedo</option>
+            </select>
+            <textarea
+              class="textarea textarea-bordered w-full resize-none mb-4"
+              placeholder="Notes to Buyer"
+            ></textarea>
+            <button class="btn btn-primary bg-[#0D3AA9] w-full rounded-full">
+              Send to Buyer
+            </button>
+          </article>
+          <article class="flex-row bg-white p-6 mt-4 rounded">
+            <p class="mb-5">Promo Codes</p>
+            <div class="flex align-center items-end">
+              <p class="text-primary inline mr-1 text-[#0D3AA9]">
+                Click to apply today's promo
+              </p>
+              <img
+                src="./assets/arrow-right.svg"
+                alt=""
+                class="self-center text-[#0D3AA9]"
+              />
+            </div>
+            <label
+              class="input input-bordered flex items-center gap-2 py-4.5 h-[52px] px-3 mt-5"
+            >
+              <input type="text" class="grow" placeholder="Search" />
+              <button class="btn btn-sm btn-outline btn-primary rounded-full">
+                Apply
+              </button>
+            </label>
+          </article>
+        </aside>
+      </section>
+    </main>
+  </body>
+</html>
