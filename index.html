@@ -47,38 +47,38 @@
               <h2 class="text-2xl font-extrabold">Your Cart</h2>
               <span class="text-base font-bold">4 Items</span>
             </div>
-            <div>
-              <button class="btn rounded-none m-0 border-none">
+            <div class="bg-white">
+              <button class="btn rounded-none border-none px-2.5 bg-white">
                 <img src="./assets/save.svg" />
                 Save Cart
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/print.svg" />
                 Print
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/add.svg" />
                 Add to List
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/download.svg" />
-                Donwload Cart
+                Download Cart
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/receipt.svg" />
                 Request a Quote
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/share.svg" />
                 Share
               </button>
-              <button class="btn rounded-none m-0 border-none">
+              <button class="btn rounded-none px-2.5 border-none bg-white">
                 <img src="./assets/trash.svg" />
                 Clear cart
               </button>
             </div>
           </nav>
-          <div class="flex gap-4 bg-white py-2 px-5">
+          <div class="flex gap-4 bg-white py-2 px-5 rounded">
             <input type="checkbox" class="toggle" checked />
             <span class="text-base font-bold">Order-Level Cost Allocation</span>
           </div>
@@ -108,28 +108,14 @@
               <div class="card-actions justify-end"></div>
             </div>
           </div>
-          <div class="card card-side bg-base-100 mt-4 rounded">
-            <figure>
-              <img src="./assets/cachucha.png" class="w-20 h-20" alt="Movie" />
-            </figure>
-            <div class="card-body">
-              <h2 class="card-title">Brand Name</h2>
-              <p>
-                This is a long text that can wrap into multiple lines, this can
-                take the entire product name
-              </p>
-              <div class="card-actions justify-end"></div>
-            </div>
-          </div>
         </div>
         <aside class="col-span-12 md:col-span-3 flex-row">
-          <article class="flex bg-white rounded mb-4">
-            <input
-              type="text"
-              placeholder="Street Address, State, Tax Exemp..."
-              class="input input-ghost w-full max-w-xs"
-            />
-            <button class="btn btn-active btn-link">Change</button>
+          <article class="flex bg-white rounded mb-4 justify-center py-3">
+            <img src="./assets/marker.svg" class="w-[14px]" />
+            <p class="text-pretty text-sm self-center px-2">
+              Street Address, State, Tax Exemp...
+            </p>
+            <p class="text-[#1C58EE] font-bold">Change</p>
           </article>
           <article class="flex-row bg-white p-6">
             <div class="flex-row">
@@ -170,7 +156,9 @@
               class="textarea textarea-bordered w-full resize-none mb-4"
               placeholder="Notes to Buyer"
             ></textarea>
-            <button class="btn btn-primary bg-[#0D3AA9] w-full rounded-full">
+            <button
+              class="btn btn-primary bg-[#1C58EE] w-full text-white font-bold"
+            >
               Send to Buyer
             </button>
           </article>
@@ -190,7 +178,9 @@
               class="input input-bordered flex items-center gap-2 py-4.5 h-[52px] px-3 mt-5"
             >
               <input type="text" class="grow" placeholder="Search" />
-              <button class="btn btn-sm btn-outline btn-primary rounded-full">
+              <button
+                class="btn btn-sm btn-outline rounded-full text-[#0D3AA9] border-[#0D3AA9]"
+              >
                 Apply
               </button>
             </label>
